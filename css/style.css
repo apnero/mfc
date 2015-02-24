@@ -338,7 +338,7 @@ li {
 /********************************** General ********************************/
 
 .generic {
-	padding: 90px 30px;
+	padding: 50px 30px;
 }
 
 .title {
@@ -402,8 +402,9 @@ header.navbar {
 	padding: 20px 0;
 	margin:0;
 	background-color: rgb(100, 134, 208);
-	background-image: url(../img/world-map-background.png);
-	/*background: white;*/
+	/*background-image: url(../img/world-map-background.png);*/
+	background: transparent url(../img/world-map-background.png) center center no-repeat;
+	/*background-size: contain;*/
 	z-index: 999;
 }
 
@@ -499,7 +500,7 @@ footer .copy h6 {
 	text-transform: uppercase;
 	white-space: normal!important;
 	width: 12em;
-	margin: 1.5em 0 0 1em;
+	margin: .6em 0 0 1em;
 }
 
 .slide2 .text {
@@ -512,7 +513,7 @@ footer .copy h6 {
 	text-transform: uppercase;
 	white-space: normal!important;
 	width: 15em;
-	margin: 8.5em 0 0 3em;
+	margin: 6.6em 0 0 3em;
 }
 
 .slide2 .text .pink { color: #fea8a9; }
@@ -527,7 +528,7 @@ footer .copy h6 {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-weight: 700;
-	margin-top: 15em;
+	margin-top: 10.2em;
 }
 
 .slide1 .quote { margin-right: 3em; }
@@ -680,7 +681,7 @@ h2 i {
 	margin: 10px 0 0 0; 
 	padding: 20px;
 	top: 0;
-	width: 33%;
+	width: 25%;
 	z-index: 10;
 }
 .ministries .groups:hover {
