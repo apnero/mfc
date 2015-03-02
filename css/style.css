@@ -481,15 +481,15 @@ footer .copy h6 {
 	line-height: 1em;
 	overflow: hidden;
 	padding: 10px;
-	text-align: right;
+	text-align: center;
 	text-transform: uppercase;
 	white-space: normal!important;
-	width: 450px;
-	margin-right: 0.5em;
+	width: 600px;
+	margin-right: 3.4em;
 }
 
 .slide1 .text.a { margin-top: 0.2em; }
-.slide1 .text.b { margin-top: 1.2em; }
+.slide1 .text.b { margin-top: 2em; margin-right: 6.5em;font-size: 4em;}
 .slide1 .text.c { margin-top: 2.1em; }
 
 .slide2 .title {
@@ -522,18 +522,23 @@ footer .copy h6 {
 .slide2 .text .green { color: #b9fdd8; }
 
 .slide1 .quote,
+.slide1 .quote2,
+.slide1 .quote3,
 .slide2 .quote {
 	font-size: 2.5em;
 	text-align: left;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-weight: 700;
-	margin-top: 10.2em;
 }
 
-.slide1 .quote { margin-right: 3em; }
-.slide2 .quote { margin-left: 5em; }
 
+
+.slide1 .quote
+ { text-align: center; font-size: 2.7em;margin-right: 5em; margin-top: 7.5em; }
+.slide2 .quote { margin-left: 5em; margin-top: 10.2em;}
+.slide1 .quote2 { text-align: center; font-size: 2.7em;margin-right: 5em; margin-top: 8.5em;}
+.slide1 .quote3 { text-align: center; font-size: 2.7em;margin-right: 5em; margin-top: 9.5em;}
 
 
 /****************************** Service & Study ****************************/

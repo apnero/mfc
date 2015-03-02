@@ -5,7 +5,7 @@
 	$('.nav').onePageNav({
 	filter: ':not(.external)',
 	scrollThreshold: 0.25,
-	scrollOffset: 90,
+	scrollOffset: 254,
 	});
 
 
@@ -51,15 +51,16 @@
 		var map;
 		map = new GMaps({
 			div: '#map',
-			lat: 41.8902624,
-			lng: 12.4923096
+			lat: 41.397368,
+			lng: -73.4545009,
+			zoom:17
 		});
 		map.addMarker({
-			lat: 41.8902624,
-			lng: 12.4923096,
+			lat: 41.397368,
+			lng: -73.4545009,
 			title: 'Contanct',
 			infoWindow: {
-				content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
+				content: '6 Crosby Street, Danbury'
 			}
 		});
 	}
